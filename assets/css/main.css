@@ -9,6 +9,25 @@ a {
 	color:black;
 }
 
+.nav{
+	width: 100%;
+	background-color:lightgrey;
+	padding: 10px;
+	box-shadow:4px 2px 2px grey;
+	position: fixed;
+	top:0px;
+	left:0px;
+}
+
+
+.nav-item{
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px
+}
+
+
 .title {
 	font-family:avenir next;
 	font-size:90px;
