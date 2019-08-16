@@ -13,17 +13,16 @@ a {
 	font-family:avenir next;
 	font-size:90px;
 	text-align:auto;
-	margin-left:20px;
 	color:black;
+	margin:auto;
 	margin-top:60px;
 	text-decoration:underline;
 }
 
 .bio {
 	color:black;
-	margin:299px;
-	margin-top:10px;
-	margin-left:20px;
+	margin:auto;
+	
 }
 
 .research {
