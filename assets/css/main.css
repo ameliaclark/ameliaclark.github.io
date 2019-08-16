@@ -1,52 +1,98 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-family: avenir next;
+	font-size: 20px;
+	color:red;
+	background-color: white;
 }
 
 a {
-	color:red;
+	color:black;
 }
 
-.nav{
-	width: 100%;
-	background-color:lightgrey;
-	padding: 10px;
-	box-shadow:4px 2px 2px grey;
-	position: fixed;
-	top:0px;
-	left:0px;
+.title {
+	font-family:avenir next;
+	font-size:90px;
+	text-align:10px;
+	margin-left:20px;
+	color:black;
+	margin-top:60px;
+	text-decoration:underline;
+}
+
+.bio {
+	color:black;
+	margin:299px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.plants2 {
+	width:200px;
+	margin-left:20px;
+}
+
+.camera {
+	width:200px;
+	margin-left:20px;
+}
+
+.beach {
+	width:200px;
+	margin-left:20px;
+}
+
+.best {
+	width:200px;
+	margin-left:20px;
+}
+
+.plants {
+	width:200px;
+	margin-left:20px;
 }
 
 
-.nav-item{
-	display: inline-block;
-	padding: 5px;
-	border: 1px solid black;
-	border-radius: 10px
+.sketch {
+	width:200px;
+	margin-right:20px;
 }
 
-.title{
-	font-size: 10.4vw;
-	font-family:Arial Black;
-	color: lightgrey;
-	margin-top: 75px;
+.greece {
+	width:200px;
+	margin-right:20px;
 }
 
-.research {
-	display: flex;
-	flex-wrap:wrap;
-	align-items: flex-end;
-	padding: 20px;
-
+.type {
+	width:200px;
+	margin-right:20px;
 }
 
-.research-item {
-	flex: 0 0 25%;
-	padding: 20px;
+.london {
+	width:200px;
+	margin-right:20px;
 }
 
-.research-item img{
-	width: 100%;
+.concert {
+	width:200px;
+	margin-right:20px;
+}
 
+.eye {
+	width:200px;
+	margin:auto;
+}
 
+.cherry {
+	width:200px;
+	margin:auto;
+}
+
+.book {
+	width:200px;
+	margin:auto;
+}
+
+.holo {
+	width:200px;
+	margin:auto;
 }
