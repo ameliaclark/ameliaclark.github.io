@@ -26,73 +26,19 @@ a {
 	margin-left:20px;
 }
 
-.plants2 {
-	width:200px;
-	margin-left:20px;
+.research {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	padding: 20px;
 }
 
-.camera {
-	width:200px;
-	margin-left:20px;
+.research-item {
+	flex: 0 0 25%
+	padding: 20px;
+
 }
 
-.beach {
-	width:200px;
-	margin-left:20px;
-}
-
-.best {
-	width:200px;
-	margin-left:20px;
-}
-
-.plants {
-	width:200px;
-	margin-left:20px;
-}
-
-
-.sketch {
-	width:200px;
-	margin-right:20px;
-}
-
-.greece {
-	width:200px;
-	margin-right:20px;
-}
-
-.type {
-	width:200px;
-	margin-right:20px;
-}
-
-.london {
-	width:200px;
-	margin-right:20px;
-}
-
-.concert {
-	width:200px;
-	margin-right:20px;
-}
-
-.eye {
-	width:200px;
-	margin:auto;
-}
-
-.cherry {
-	width:200px;
-	margin:auto;
-}
-
-.book {
-	width:200px;
-	margin:auto;
-}
-
-.holo {
-	width:200px;
-	margin:auto;
+.research-item img{
+	width: 100%;
 }
