@@ -15,30 +15,22 @@ $(document).ready(function(){
 		$('.research-item').addClass('hide');
 	}
 
-	$('.btn-milk-bar').click(function(){
+	$('.btn-signs').click(function(){
 		hideAll();
-		$('.milk-bar').removeClass('hide');
+		$('.signs').removeClass('hide');
 	});
 
 
-	$('.btn-laundromat').click(function(){
+	$('.btn-inside').click(function(){
 		hideAll();
-		$('.laundromat').removeClass('hide');
+		$('.inside').removeClass('hide');
 	});
 
 
-	$('.btn-cleaners').click(function(){
+	$('.btn-outside').click(function(){
 		hideAll();
-		$('.cleaners').removeClass('hide');
+		$('.outside').removeClass('hide');
 	});
 
-	$('.btn-shoes').click(function(){
-		hideAll();
-		$('.shoes').removeClass('hide');
-	});
 
-	$('.btn-other').click(function(){
-		hideAll();
-		$('.other').removeClass('hide');
-	});
 });
