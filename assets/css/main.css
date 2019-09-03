@@ -84,13 +84,11 @@ a {
 .text h1{
 	font-size: 30px;
 	color:black;
-	margin-bottom: 33.333vh;
+	margin-bottom: 20vh;
 	font-family:Andale Mono;
+	padding: 20px;
 }
 
-.text h2{
-	font-family:Andale Mono;
-}
 
 .text p{
 	margin-bottom:20px;
