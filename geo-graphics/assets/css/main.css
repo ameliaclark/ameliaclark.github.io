@@ -1,0 +1,107 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+
+/* IP */
+
+/* backgorund-color:red */
+/* backgorund-color:lime */
+/* backgorund-color:blue */
+/* backgorund-color:cyan */
+/* backgorund-color:magenta */
+/* backgorund-color:grey */
+
+.ip{
+	width: 100vw;
+	height:100vh;
+	background-color: lime;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ip-text {
+ 	font-size: 12.5vw;
+ 	color: white;
+ 	font-family: Andale Mono;
+}
+
+
+.checkers {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+
+.checkers-red {
+ 	flex:0 0 50%;
+ 	height: 50vh;
+ 	background-color: red;
+}
+
+
+.checkers-white {
+ 	flex: 0 0 50%;
+ 	height: 50vh;
+ 	background-color: white;
+}
+
+
+/* CHECKERS*/
+
+.checkers-type {
+	width: 100vw;
+	height:100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+
+
+.checkers-text {
+	font-size: 15vw;
+	font-family: Andale Mono;
+	border: 1vw solid black;
+	padding: 2vw;
+}
+
+.user {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightyellow;
+
+}
+
+.avatar {
+	width: 75vw;
+	height:75vw;
+	background-color: pink;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+
+.letter {
+ font-size:50vw;
+ color: white;
+ font-family: Andale Mono;
+}
+
