@@ -55,7 +55,23 @@ a {
  	background-color: white;
 }
 
+.checkers-yellow {
+	flex: 0 0 50%;
+	height: 50vh;
+	background-color: yellow;
+}
 
+.checker-lime {
+	flex: 0 0 50%;
+	height: 50vh;
+	background-color: lime;
+}
+
+.checker-blue {
+	flex: 0 0 50%;
+	height: 50vh;
+	background-color: blue;
+}
 /* CHECKERS*/
 
 .checkers-type {
@@ -105,3 +121,186 @@ a {
  font-family: Andale Mono;
 }
 
+.reverse {
+	background-color: black;
+	width: 100vw;
+	height:100vh;
+	display: flex;
+	
+	justify-content: center;
+}
+
+.reverse-text {
+ font-size: 22vw;
+ color: white;
+ font-family: Times New Roman;
+ text-decoration: underline;
+
+ direction: rtl;
+unicode-bidi: bidi-override; 
+}
+
+.under {
+	height: 0vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.under-text {
+	font-size: 5vw;
+ 	color: red;
+ 	font-family: Times New Roman;
+ 	
+
+}
+
+.upside {
+	background-color: red;
+	width: 100vw;
+	height:30vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.upside-text {
+	font-family: helvetica;
+	font-size: 18vw;
+	color: white;
+}
+
+.down {
+ 	background-color: red;
+	width: 100vw;
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-transform:rotate(-180deg);
+	-moz-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+	ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+.down-text {
+	font-family: helvetica;
+	font-size: 18vw;
+	color: white;
+}
+
+
+.identity {
+	
+	height:100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin-left: 0px;
+}
+
+.identity-text {
+	font-family: Arial;
+	font-size: 10vw;
+	margin-left: 0px;
+}
+
+.identity2 {
+	height:100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	
+}
+
+.identity2-text {
+	font-family: Courier;
+	font-size: 6.5vw;
+	margin-right: 0px;
+}
+
+
+.fade {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgrey;
+}
+
+.fade-text {
+	font-family: impact;
+	font-size: 20vw;
+}
+
+
+.find {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgrey;
+}
+
+
+
+.circle { 
+   width: 100%;
+   height: 100%;
+
+   -moz-border-radius: 50%; 
+   -webkit-border-radius: 50%; 
+   border-radius: 50%;
+
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;   
+  box-sizing: border-box;  
+  box-shadow: 0 0 0 0.25em #000;     
+}
+
+.circle.one{
+  width:400px;
+  height:400px;
+  background:green;
+  padding:40px;
+}
+
+.circle.two{
+  background:lightgreen;
+    padding:80px;
+}
+.circle.three{
+  background:green;
+    padding:20px;
+}
+.circle.four{
+  background:lightgreen;
+}
+
+
+.find-text {
+	font-size:10vw;
+ 	color: white;
+ 	font-family: Trebucket MS;
+}
+
+.fourg img{
+	background-repeat: repeat;
+	width: 10%;
+}
+
+.fourg {
+	padding-top: 2px;
+	
+}
