@@ -21,6 +21,10 @@
 	color:white;
 }
 
+.right-content img{ 
+ width: 50%;
+}
+
 
 .nav-header{
 	display:inline-block;

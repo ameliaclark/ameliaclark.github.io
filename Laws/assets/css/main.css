@@ -63,7 +63,7 @@ a {
 
 .right {
 	color: black;
-	background-color: yellow;
+	background-color: lightgrey;
 	flex:0 0 50%;
 	height: 100vh;
 	overflow: scroll;	
