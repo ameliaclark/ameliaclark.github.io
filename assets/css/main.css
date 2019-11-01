@@ -70,9 +70,11 @@ a {
 }
 
 .right-content {
-	padding: 10px;
+	padding-top: 15vh;
 }
 
 .right img {
 	width: 100%;
+	align-content: center;
+	
 }
