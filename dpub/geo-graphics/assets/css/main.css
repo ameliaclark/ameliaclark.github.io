@@ -260,6 +260,24 @@ unicode-bidi: bidi-override;
 .fade-text {
 	font-family: impact;
 	font-size: 20vw;
+	opacity: 1;
+    transition: opacity 6s linear infinite;
+  	-webkit-animation: fadeinout 6s linear infinite;
+    animation: fadeinout 6s linear infinite;
+
+
+}
+  
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+
 }
 
 .background {
@@ -269,23 +287,12 @@ unicode-bidi: bidi-override;
 	margin-top: 0px;
 	background-color: black;
 	border-radius: 2%;
+	
+}	
+  
+  
 
-	animation:blur 10s infinite linear alternate;
 
- 	@keyframes blur {
-  
-  0% {
-    blur ;
-    
-  }
-  
-  100% {
-    transform:rotate(360deg);
-  }
-  
-  
-}
-}
 /*blur end*/
 
 /*find myself start*/
@@ -556,4 +563,361 @@ color:white;
   height: 100vh;
   width: 100vw;
 
+}
+
+.memory img{
+	width: 100%;
+	align-content: center;
+	
+}
+
+.memory {
+	padding-top: 50px;
+	align-content: center;
+	text-align: center;
+}
+
+.heat img {
+	width: 100%;
+	align-content: center;
+}
+
+.on-type {
+	width: 100vw;
+	height:100vh;
+	display:flex;
+	align-items: center;
+	justify-content: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	-webkit-animation: fadeoutin 3s linear infinite;
+    animation: fadeinout 3s linear infinite;
+
+
+}
+  
+
+@-webkit-keyframes fadeoutin {
+  100%,0% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes fadeoutin {
+  100%,0% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+
+
+
+.on-text {
+	font-size: 5vw;
+	font-family: Andale Mono;
+	padding: 2vw;
+}
+
+
+.off-type {
+	width: 100vw;
+	height:100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	opacity: 1;
+    transition: opacity 2s linear;
+  	-webkit-animation: fadeinout 4s linear infinite;
+    animation: fadeinout 4s linear infinite;
+
+
+}
+  
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.off-text {
+	font-size: 5vw;
+	font-family: Andale Mono;
+	padding: 2vw;
+}
+
+
+.money img{
+	width: 100%;
+	align-content: center;
+	
+}
+
+
+
+.dollar {
+	height:100vh;
+	display:flex;
+	display: wrap;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	
+
+
+}
+
+.dollar-type {
+	font-size: 100pt;
+	color: white;
+}
+
+
+.red {
+
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  top:15%;
+  left:-1%;
+	
+
+
+}
+
+.yellow {
+
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  top:15%;
+  left:32%;
+
+}
+
+.green {
+
+  height: 500px;
+  width: 500px;
+  background-color: lime;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  top:15%;
+  left:66%;
+}
+
+
+.nbn img {
+	width: 20%;
+	align-content: center;
+	position:fixed;
+
+}
+
+.nbna img {
+	width: 20%;
+	position:fixed;
+	top:0%;
+	right:60%;
+
+}
+
+.nbnb img {
+	width: 20%;
+	position:fixed;
+	top:0%;
+	right:40%;
+
+}
+
+.nbnc img {
+	width: 20%;
+	position:fixed;
+	top:0%;
+	right:20%;
+
+}
+
+.nbnd img {
+	width: 20%;
+	position:fixed;
+	top:0%;
+	right:0%;
+
+}
+
+
+.nbne img {
+	width: 20%;
+	position:fixed;
+	top:50%;
+	right:60%;
+
+}
+
+.nbnf img {
+	width: 20%;
+	position:fixed;
+	top:50%;
+	right:40%;
+
+}
+
+.nbng img {
+	width: 20%;
+	position:fixed;
+	top:50%;
+	right:20%;
+
+}
+
+.nbnh img {
+	width: 20%;
+	position:fixed;
+	top:50%;
+	right:0%;
+
+}
+
+.nbni img {
+	width: 20%;
+	position:fixed;
+	top:50%;
+	right:80%;
+
+}
+
+.nbnj img {
+	width: 20%;
+	position:fixed;
+	top:70%;
+	right:60%;
+
+}
+
+.nbnk img {
+	width: 20%;
+	position:fixed;
+	top:70%;
+	right:40%;
+
+}
+
+.nbnl img {
+	width: 20%;
+	position:fixed;
+	top:70%;
+	right:20%;
+
+}
+
+.nbnm img {
+	width: 20%;
+	position:fixed;
+	top:70%;
+	right:0%;
+
+}
+
+.nbnn img {
+	width: 20%;
+	position:fixed;
+	top:70%;
+	right:80%;
+
+}
+
+
+.pirate img{
+	width:160%;
+	
+	position:fixed;
+	top:-90%;
+	right:-10%;
+}
+
+
+
+.blob img{
+	width: 30%;
+	align-content: center;
+	justify-content: center;
+	position: fixed;
+	top:20%;
+	left:35%;
+	
+}
+
+
+
+.blob {
+	background-color: black;
+	width: 100vw;
+	height:100vh;
+}
+
+
+
+.yt img{
+	width: 100%;
+	align-content: center;
+	justify-content: center;
+	position: fixed;
+	
+	
+}
+
+.titles {
+	font-size: 20px;
+	font-family: Helvetica;
+	background-color: pink;
+	color:white;
+	width:100vw;
+	height:100vh;
+	line-height: 150%;
+}
+
+.clou {
+position:fixed;
+top:20%;
+left:30%;
+}
+
+.cit {
+position:fixed;
+top:20%;
+left:60%;
+}
+
+
+.city {
+	font-size: 70px;
+	font-family:bold;
+}
+
+
+.cloud {
+	font-size:70px;
+	font-family:bold;
+}
+
+
+.nav-item {
+	font-size: 20px;
+	font-family: Helvetica;
+	color: white;
 }
